@@ -10,16 +10,19 @@
     ..:~$ tar -xzvf mysql-8.3.0.tar.gz
     .. :~$ cd mysql-8.3.0
     .. : :~/mysql-8.3.0$./configure
-    configure:no such file or directory
+ configure:no such file or directory
+ 
     … :~/mysql-8.3.0$ls
     … :~/mysql-8.3.0$ more INSTALL
     … :~/mysql-8.3.0$ mkdir bld
     .. :.~/mysql-8.3.0/bld$ cmake ..
-    ….ERROR : « Please install the appropriate openssl developer package »….
+ ….ERROR : « Please install the appropriate openssl developer package »….
+ 
     … :~/mysql-8.3.0/bld$sudo apt-get install libssl-dev
     … :~/mysql-8.3.0/bld$ cmake..
     
-    ...ERROR : »Curses library not found .Please install the appropriate package »…
+  ...ERROR : »Curses library not found .Please install the appropriate package »…
+  
     … :~/mysql-8.3.0/bld$ sudo apt-get install libncurses5-dev
     .. :.~/mysql-8.3.0/bld$cmake ..
     ...ERROR : »Could not find PkgConfig(missing:PKG_CONFIG_EXECUTABLE) »…
