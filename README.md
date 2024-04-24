@@ -1,8 +1,8 @@
 # Devoir_installation
     DEVOIR LINUX
                              Installation  à partir d’un code source d’un code source
-
-          • INSTALLATION  MySQL
+			     
+	```  • INSTALLATION  MySQL```
           
      Étape 1 :  Téléchargement d’un code source :mysql-8.3.0.tar.gz
     Étape 2 :  Terminal :
