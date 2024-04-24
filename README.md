@@ -32,6 +32,7 @@
     no error
      … :~/mysql-8.3.0/bld$make
      … :~/mysql-8.3.0/bld$ sudo make install
+     ...:~/mysql-8.3.0/bld$ make clean
            
  • INSTALLATION APACHE :
  
@@ -76,7 +77,8 @@ ERROR:fatal error:expat.h:no such file or directory
 	~/httpd-2.4.59/ pcre2-10.43$cd ..
 	~/httpd-2.4.59$ ./configure
 	~/httpd-2.4.59$ make
-     ~/httpd-2.4.59$sudo make install
+    ~/httpd-2.4.59$sudo make install
+	 ~/httpd-2.4.59$make clean
 
 • INSTALLATION PHP
 
@@ -95,6 +97,7 @@ ERROR:fatal error:expat.h:no such file or directory
     ..~/php-8.3.6$./configure
     ..~/php-8.3.6$make
     ..~/php-8.3.6$sudo make install
+	..~/php-8.3.6$make clean 
                 
         
         
