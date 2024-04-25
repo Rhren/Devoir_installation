@@ -1,6 +1,6 @@
 # Devoir_installation
- DEVOIR LINUX
-                             Installation  à partir d’un code source d’un code source
+ DEVOIR LINUx
+                             Installation  à partir d’un code source
 			     
  • INSTALLATION  MySQL
           
